@@ -5,11 +5,12 @@ This project is using Jetpack navigation.
 Used Design Pattern for project implementation:
 
 - AdapterPattern
-- ObsereverPattern
+- ObserverPattern
 - Singleton
 - CallBackPattern(DelegatePattern)
-- 
-Database is simplemented as simple SqlLight.
+
+  
+Database is implemented as simple SqlLight.
 
 ![Screenshot_20250303_121324](https://github.com/user-attachments/assets/2648e188-2562-404c-a3b8-93ac3dae2ccc)
 ![Screenshot 2025-03-03 at 12 13 49](https://github.com/user-attachments/assets/c031abf3-db0c-4e02-b89f-f63049cdebd2)
