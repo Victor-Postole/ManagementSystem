@@ -1,0 +1,8 @@
+package com.sistem.meditatii.InterfataGraficaUtilizator.resurseMeditatieSesiune;
+
+import com.sistem.meditatii.ModeleInterogareBazaDate.ResurseSesiuneMeditatieModel.ResurseSesiuneMeditatieModel_INNER_JOIN;
+import com.sistem.meditatii.ModeleInterogareBazaDate.SesiuneCurs.SesiuneCursModel_INNER_JOIN;
+
+public interface GetResurseMeditatieSesiuneSelectedItem {
+    public void getSelectedItem(ResurseSesiuneMeditatieModel_INNER_JOIN insertPlataSesiuneModel);
+}

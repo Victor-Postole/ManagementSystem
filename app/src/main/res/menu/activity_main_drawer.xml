@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Inregistreaza plata">
+            <menu>
+
+                <item
+                    android:id="@+id/inregistrarePlataFragment"
+                    android:title="@string/menu_inregistrare_plata" />
+
+                <item
+                    android:id="@+id/facturaFragment"
+                    android:title="@string/menu_factura" />
+                <item
+                    android:id="@+id/plataFragment"
+                    android:title="@string/menu_plata" />
+
+                <item
+                    android:id="@+id/plataSesiuneFragment"
+                    android:title="@string/menu_plata_sesiune" />
+
+            </menu>
+        </item>
+
+
+        <item android:title="Angajare profesor">
+            <menu>
+                <item
+                    android:id="@+id/angajareProfesorFragment"
+                    android:title="@string/menu_angajare_profesor" />
+
+                <item
+                    android:id="@+id/angajatFragment"
+                    android:title="@string/menu_angajat" />
+
+                <item
+                    android:id="@+id/profesorFragment"
+                    android:title="@string/menu_profesor" />
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="Conturi utilizator">
+            <menu>
+
+                <item
+                    android:id="@+id/contUtilizatorFragment"
+                    android:title="@string/menu_cont_utilizator" />
+
+                <item
+                    android:id="@+id/studentFragment"
+                    android:title="@string/menu_student" />
+
+                <item
+                    android:id="@+id/utilizatorFragment"
+                    android:title="@string/menu_utilizator" />
+
+            </menu>
+        </item>
+
+
+        <item android:title="Participare cursuri">
+            <menu>
+
+                <item
+                    android:id="@+id/cursFragment"
+                    android:title="@string/menu_curs" />
+
+
+                <item
+                    android:id="@+id/participareCursFragment"
+                    android:title="@string/menu_participare_curs" />
+
+                <item
+                    android:id="@+id/predareCursFragment"
+                    android:title="@string/menu_predare_curs" />
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Resursa cursuri">
+            <menu>
+
+                <item
+                    android:id="@+id/raportFragment"
+                    android:title="@string/menu_raport" />
+
+                <item
+                    android:id="@+id/resursaFragment"
+                    android:title="@string/menu_resursa" />
+
+                <item
+                    android:id="@+id/resurseMeditatieSesiuneFragment"
+                    android:title="@string/menu_resurse_meditatie_sesiune" />
+            </menu>
+        </item>
+
+
+
+        <item android:title="Sesiune Cursuri">
+            <menu>
+
+                <item
+                    android:id="@+id/resurseCursFragment"
+                    android:title="@string/menu_resurse_curs" />
+
+                <item
+                    android:id="@+id/resurseGenerareRapoarteFragment"
+                    android:title="@string/menu_resurse_generare_rapoarte" />
+
+                <item
+                    android:id="@+id/sesiuneCursFragment"
+                    android:title="@string/menu_seisune_curs" />
+
+                <item
+                    android:id="@+id/sesiuneMeditatieFragment"
+                    android:title="@string/menu_seisune_meditatie" />
+
+            </menu>
+        </item>
+
+
+
+    </group>
+</menu>

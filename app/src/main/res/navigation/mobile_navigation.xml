@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/angajareProfesorFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.angajareProfesor.AngajareProfesorFragment"
+        android:label="fragment_angajare_profesor"
+        tools:layout="@layout/fragment_angajare_profesor" />
+    <fragment
+        android:id="@+id/angajatFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.angajat.AngajatFragment"
+        android:label="fragment_angajat"
+        tools:layout="@layout/fragment_angajat" />
+    <fragment
+        android:id="@+id/contUtilizatorFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.contUtilizator.ContUtilizatorFragment"
+        android:label="fragment_cont_utilizator"
+        tools:layout="@layout/fragment_cont_utilizator" />
+    <fragment
+        android:id="@+id/cursFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.curs.CursFragment"
+        android:label="fragment_curs"
+        tools:layout="@layout/fragment_curs" />
+    <fragment
+        android:id="@+id/facturaFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.factura.FacturaFragment"
+        android:label="fragment_factura"
+        tools:layout="@layout/fragment_factura" />
+    <fragment
+        android:id="@+id/inregistrarePlataFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.inregistrarePlata.InregistrarePlataFragment"
+        android:label="fragment_inregistrare_plata"
+        tools:layout="@layout/fragment_inregistrare_plata" />
+    <fragment
+        android:id="@+id/participareCursFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.participareCurs.ParticipareCursFragment"
+        android:label="fragment_participare_curs"
+        tools:layout="@layout/fragment_participare_curs" />
+    <fragment
+        android:id="@+id/plataFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.plata.PlataFragment"
+        android:label="fragment_plata"
+        tools:layout="@layout/fragment_plata" />
+    <fragment
+        android:id="@+id/plataSesiuneFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.plataSesiune.PlataSesiuneFragment"
+        android:label="fragment_plata_sesiune"
+        tools:layout="@layout/fragment_plata_sesiune" />
+    <fragment
+        android:id="@+id/predareCursFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.predareCurs.PredareCursFragment"
+        android:label="fragment_predare_curs"
+        tools:layout="@layout/fragment_predare_curs" />
+    <fragment
+        android:id="@+id/profesorFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.profesor.ProfesorFragment"
+        android:label="fragment_profesor"
+        tools:layout="@layout/fragment_profesor" />
+    <fragment
+        android:id="@+id/raportFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.raport.RaportFragment"
+        android:label="fragment_raport"
+        tools:layout="@layout/fragment_raport" />
+    <fragment
+        android:id="@+id/resursaFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.resursa.ResursaFragment"
+        android:label="fragment_resursa"
+        tools:layout="@layout/fragment_resursa" />
+    <fragment
+        android:id="@+id/resurseCursFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.resurseCurs.ResurseCursFragment"
+        android:label="fragment_resurse_curs"
+        tools:layout="@layout/fragment_resurse_curs" />
+    <fragment
+        android:id="@+id/resurseGenerareRapoarteFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.resurseGenerareRapoarte.ResurseGenerareRapoarteFragment"
+        android:label="fragment_resurse_generare_rapoarte"
+        tools:layout="@layout/fragment_resurse_generare_rapoarte" />
+    <fragment
+        android:id="@+id/resurseMeditatieSesiuneFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.resurseMeditatieSesiune.ResurseMeditatieSesiuneFragment"
+        android:label="fragment_resurse_meditatie_sesiune"
+        tools:layout="@layout/fragment_resurse_meditatie_sesiune" />
+    <fragment
+        android:id="@+id/sesiuneCursFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.sesiuneCurs.SesiuneCursFragment"
+        android:label="fragment_sesiune_curs"
+        tools:layout="@layout/fragment_sesiune_curs" />
+    <fragment
+        android:id="@+id/sesiuneMeditatieFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.sesiuneMeditatie.SesiuneMeditatieFragment"
+        android:label="fragment_sesiune_meditatie"
+        tools:layout="@layout/fragment_sesiune_meditatie" />
+    <fragment
+        android:id="@+id/studentFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.student.StudentFragment"
+        android:label="fragment_student"
+        tools:layout="@layout/fragment_student" />
+    <fragment
+        android:id="@+id/utilizatorFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.utilizator.UtilizatorFragment"
+        android:label="fragment_utilizator"
+        tools:layout="@layout/fragment_utilizator" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_creeazaUtilizatorNouFragment"
+            app:destination="@id/creeazaUtilizatorNouFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creeazaUtilizatorNouFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.creeazaUtilizatorNou.CreeazaUtilizatorNouFragment"
+        android:label="fragment_creeaza_utilizator"
+        tools:layout="@layout/fragment_creeaza_utilizator" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.sistem.meditatii.InterfataGraficaUtilizator.profil.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

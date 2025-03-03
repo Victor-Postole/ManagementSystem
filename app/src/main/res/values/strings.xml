@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SystemMeditatii</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_angajare_profesor">Angajare profesor</string>
+    <string name="menu_angajat">Angajat</string>
+    <string name="menu_cont_utilizator">Cont utilizator</string>
+    <string name="menu_curs">Curs</string>
+    <string name="menu_factura">Factura</string>
+    <string name="menu_inregistrare_plata">Inregistrare Plata</string>
+    <string name="menu_participare_curs">Participare Curs</string>
+    <string name="menu_plata">Plata</string>
+    <string name="menu_plata_sesiune">Plata sesiune</string>
+    <string name="menu_predare_curs">Predare curs</string>
+    <string name="menu_profesor">Profesor</string>
+    <string name="menu_raport">Raport</string>
+    <string name="menu_resursa">Resursa</string>
+    <string name="menu_resurse_curs">Resurse curs</string>
+    <string name="menu_resurse_generare_rapoarte">Resurse generare rapoarte</string>
+    <string name="menu_resurse_meditatie_sesiune">Resurse meditatie sesiune</string>
+    <string name="menu_seisune_curs">Sesiune curs</string>
+    <string name="menu_seisune_meditatie">Sesiune meditatie</string>
+    <string name="menu_student">Student</string>
+    <string name="menu_utilizator">Utilizator</string>
+
+    <string name="title_angajare_profesor">Angajare profesor</string>
+    <string name="title_angajat">Angajat</string>
+    <string name="title_cont_utilizator">Cont utilizator</string>
+    <string name="title_curs">Curs</string>
+    <string name="title_factura">Factura</string>
+    <string name="title_inregistrare_plata">Inregistrare Plata</string>
+    <string name="title_participare_curs">Participare Curs</string>
+    <string name="title_plata">Plata</string>
+    <string name="title_plata_sesiune">Plata sesiune</string>
+    <string name="title_predare_curs">Predare curs</string>
+    <string name="title_profesor">Profesor</string>
+    <string name="title_raport">Raport</string>
+    <string name="title_resursa">Resursa</string>
+    <string name="title_resurse_curs">Resurse curs</string>
+    <string name="title_resurse_generare_rapoarte">Resurse rapoarte</string>
+    <string name="title_resurse_meditatie_sesiune">Resurse meditatie sesiune</string>
+    <string name="title_seisune_curs">Sesiune curs</string>
+    <string name="title_seisune_meditatie">Sesiune meditatie</string>
+    <string name="title_student">Student</string>
+    <string name="title_utilizator">Utilizator</string>
+    <string name="title_creeaza_utilizator">Utilizator nou</string>
+    <string name="title_profil">Informatii profil</string>
+
+
+</resources>
